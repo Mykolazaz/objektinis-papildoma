@@ -1,0 +1,646 @@
+{{pps-template|small=yes}}
+
+{{reikšmė|Lietuvos sostinę|kaimą Kupiškio rajone|[[Vilnius (Kupiškis)]].}}
+{{city/Lietuvos miestas
+ | pavadinimas          = Vilnius
+ | paveikslelis         = Vilnius old town by Augustas Didzgalvis.jpg
+ | paveikslėlio tekstas = Vilniaus panorama su [[Vilniaus senamiestis|senamiesčiu]] ir verslo centru fone 2021 m.
+ | herbas               = Grand Coat of arms of Vilnius.svg
+ | vėliava              = Flag_of_Vilnius.svg
+ | lat                  = 54.687
+ | long                 = 25.283
+ | apskritis            = Vilniaus
+ | savivaldybė          = Vilniaus miesto
+ | įkurtas              = [[1323]] m. {{smaller|(pirmą kartą paminėtas)}}
+ | vadovas              = [[Valdas Benkunskas]]
+ | gyventojumetai       = 2024
+ | gyventoju            = 605270
+ | plotas               = 401
+ | pastokodas           = centrinis LT-01001
+ | tinklalapis          = http://www.vilnius.lt www.vilnius.lt
+ | vikiteka             = Category:Vilnius
+ | globejas             = [[Šv. Kristoforas]] 
+ | kirč                 = {{Vietovardis|k=1|Vi̇̀lnius|Vi̇̀lniaus|Vi̇̀lniui|Vi̇̀lnių|Vi̇̀lniumi|Vi̇̀lniuje|š=2002}}
+ | istpav               = {{la|Vilna}}, {{pl|Wilno}}, {{ru|Вильна}},<ref name="ESBE">{{ESBE|6|021/21158|Вильна|381}}</ref> ''Вильно'',<ref name="GSSRI">{{GSSRI|1|460|Вильно}}</ref> {{be|Вільня}}, {{de|Wilna}}, {{he|וילנה|Vilne}}, {{yi|ווילנע|Wilne}}.
+}}
+
+'''Vilnius''' – [[Lietuva|Lietuvos]] [[sostinė]]. [[Vilniaus apskritis|Vilniaus apskrities]], [[Vilniaus rajono savivaldybė]]s ir [[Vilniaus miesto savivaldybė]]s centras, yra 20 seniūnijų. [[Vilniaus arkivyskupija|Arkivyskupijos]] centras, nuo 1579 m. – [[Vilniaus Universitetas|universitetinis]] miestas. Sostinėje veikia aukščiausios valdžios institucijos – [[Lietuvos Respublikos prezidentūra]], [[Lietuvos Seimas]], [[Lietuvos Respublikos Vyriausybė|Lietuvos Vyriausybė]], [[Ministerija|ministerijos]], Lietuvos [[Lietuvos Aukščiausiasis Teismas|Aukščiausiasis]] ir [[Lietuvos Respublikos Konstitucinis Teismas|Konstitucinis]] teismai, užsienio valstybių [[Ambasada|ambasados]] ir atstovybės, [[Diplomatinė misija|diplomatinės misijos]], tarptautinių organizacijų atstovybės.
+
+1994 m. [[Vilniaus senamiestis]] įtrauktas į [[UNESCO]] organizacijos [[Pasaulio paveldo sąrašas|Pasaulio paveldo sąrašą]].
+
+== Etimologija ==
+Vilnius yra [[vandenvardinis vietovardis]] – jam vardą davusi [[Vilnia|Vilnios]] upė, tekanti pro miestą.<ref>{{Legendos 2008|138}}</ref> Upėvardis ''Vilnia'' sietinas su bendriniu žodžiu ''vilnia'' (bendrinėje kalboje įsigalėjęs variantas ''vilnis''). Senoji Vilniaus vardo forma ''Vilnia'' žinoma rytų Lietuvos tarmėse. Apie XV a. įsigalėjo vardo forma ''Vilnius'', kuri padaryta pagal tą patį modelį kaip ''Alyta'' (upės vardas) ir ''[[Alytus]]'' (miesto vardas). Formos perėjimą nuo moteriškos į vyrišką galėjo lemti ir [[Lenkų kalba|lenkų kalbos]] galūnė ''-o'' (iš ''Wilno''), kuri dažniausiai verčiama vyriška, o ne moteriška gimine.<ref>{{Vanagas 2004|254–262}}</ref> Taip pat gali būti, kad pats žodis ''miestas'', būdamas vyriškos giminės, tarsi nusako poreikį jį vadinti vyriška gimine, kad nebūtų nesusipratimų vienodai vadinant ir upę, ir miestą.<ref>{{Sabaliauskas 1994|375}}</ref> Vardo ''Vilnius'' vyriška forma minima jau [[Mikalojus Daukša|M. Daukšos]] 1595 m. išleistame katekizme. [[Lotynų kalba|Lotynų kalboje]] yra išlikusi senoji Vilniaus vardo forma ''Vilna''.
+
+== Geografija ==
+Yra pietrytinėje [[Lietuva|Lietuvoje]], [[Vilnia|Vilnios]] ir [[Neris|Neries]] santakoje, ~20 km į pietus nuo [[Europos geografinis centras|geografinio Europos centro]], 312 km nuo [[Baltijos jūra|Baltijos jūros]].
+
+Pastatai sudaro 20,2 % miesto teritorijos. Miškai sudaro 43,9 % miesto, vandenys 2,1 %.
+
+=== Paviršius ===
+Įsikūręs [[Baltijos aukštumos|Baltijos aukštumų]] kalvyno juostoje, giliai išraižytoje vingiuoto Neries slėnio. Pietryčiuose paviršius kyla į kalvotą ir slėniuotą [[Medininkų aukštuma|Medininkų aukštumą]], šiaurėje – į ežeringą [[Aukštaičių aukštuma|Aukštaičių aikštumą]], kurios pietinis pakraštys – [[Riešės aukštuma]] – kyla ties šiaurės vakariniais miesto pakraščiais (pradedant Šeškine, Viršuliškėmis, Baltupiais, Santariškėmis). Šiaurės rytinė miesto dalis plyti [[Neries-Žeimenos žemuma|Neries-Žeimenos žemumoje]]. Centrinė miesto dalis yra plačiame (~5 km) Neries senslėnyje, kuris link upės leidžiasi 8 terasomis. Gilų slėnį taip pat sudaro ir Neries intakas [[Vilnia]]. Aukštumos į senslėnį leidžiasi daugiausia stačiais, raguvų išraižytais, šaltiniuotais šlaitais.<ref>{{VLE|XXV}}</ref> Vietomis aukštumos priartėja prie pat upių ir taip dėl erozijos atsiveria skardžiai (pvz., [[Pūčkorių atodanga]], [[Plikakalnio atodanga]], Naujanerių atodanga).
+
+Žemiausia miesto vieta (97 m) yra Neries pakrantėse, o aukščiausiai paviršius iškyla (234 m) Pavilnyje ([[Rokantiškių kalva]]).
+
+[[Šeškinė|Šeškinėje]] yra ledynmetinio akumuliacinio reljefo reliktas, [[Šeškinės ozas]]. Kiti raiškesni ledyniniai kraštovaizdžiai – [[Panerių kalvynas]], [[Gariūnų sufozinis cirkas]], [[Rasų-Ribiškių kalvynas]].
+
+=== Hidrologija ===
+Miestas patenka į [[Neris|Neries]] baseiną. Upė kerta miestą skersai. Iš rytų į Nerį labai vinguriuodama teka Vilnia su keletu trumpų intakų ([[Kaukysa]], [[Murlė|Murle]]), o pietinį miesto pakraštį juosia kitas Neries intakas – [[Vokė]]. Šiauriniais pakraščiais teka Neries intakas [[Riešė (upė)|Riešė]], be to, į Nerį miesto teritorijoje įteka dar keletas smulkių upelių – [[Antavilis (upė)|Antavilis]], [[Veržuva (upė)|Veržuva]], [[Upelė]] (su [[Dvarčia|Dvarčione]]), [[Verkė]], [[Turniškė]], [[Cedronas]], [[Sudervėlė]]).
+
+Neryje yra susiformavusių bevardžių upinių [[sala|salų]] ties Gariūnais, Vingio parku, Turniškėmis, tačiau tik viena ties Žvėrynu oficialiai vadinama [[Bebrų sala]].
+
+Yra keletas ežerų: ežeringiausia yra šiaurės rytinė dalis, kur Antavilių miškuose telkšo [[Balžis|Balžio]], [[Antavilio ežeras|Antavilio]], [[Juodis (Vilniaus m.)|Juodžio]], [[Tapelių ežeras|Tapelių]], [[Skarbelis|Skarbelio]] ežerai bei šiaurėje, šalia [[Verkių Riešė]]s esantis [[Žalieji ežerai|Žaliųjų ežerų]] ežerynas ([[Balsys (ežeras)|Balsys]], [[Gulbinas (Vilnius)|Gulbinas]], [[Mažasis Gulbinų ežeras]], [[Raistelis (ežeras)|Raistelis]] ir kt.). Vakariniame pakraštyje, prie [[Pilaitė (Vilnius)|Pilaitės]], telkšo [[Gelūžė]]s, [[Salotė (ežeras)|Salotės]], [[Baltieša|Baltiešos]] ežerai. Keli smulkesni ežerėliai ([[Kairėnų ežeras]], [[Naujųjų Verkių ežeras]]) bei tvenkiniai ([[Cedrono tvenkinys]], [[Jeruzalės tvenkinys]], [[Rokantiškių tvenkinys]]) telkšo kitur mieste.
+
+Šiaurės rytiniame Vilniaus pakraštyje plyti Šeškučių pelkė.
+
+=== Gamta ===
+Pagrindinis želdynų masyvas Vilniuje – visą šiaurės rytinę miesto pusę užimantis [[Lavoriškių-Nemenčinės miškai|Lavoriškių-Nemenčinės miškų]] pakraštys (Antavilių, Valakampių ir kt. miškai), kur vyrauja [[šilas|šilai]]. Šiaurėje, aplink Žaliuosius ežerus, auga Verkių miškas, o rytuose-pietryčiuose auga moreninių kalvynų viršūnes dengiantys miškai (Antakalnio, Belmonto, Pavilnių, Liepkalnio), kur vyrauja daugiausia pušynai ir [[eglynas|eglynai]]. Per pietinę Vilniaus pusę driekiasi [[Panerių miškas]], kuriame auga vienos aukščiausių Lietuvos eglių, o už Pilaitės ir Lazdynų prasideda [[Girulių miškas]]. Centrinėje miesto dalyje yra mažesnių miškų ir parkų: [[Vingio parkas]], [[Kalvarijų memorialinis draustinis|Kalvarijų parkas]], [[Bernardinų sodas]], [[Kalnų parkas]], [[Misionierių sodai]], [[Sapiegų rūmų parkas]] ir kt.
+
+Yra senų, saugomų medžių ([[Sapiegų parko liepa]], [[Žvėryno liepa]], [[Vingio parko liepų alėja]], [[Kaštonų ratas Pilių parke]], [[Aštuonių klevų ratas Vileišių sodyboje]] ir kt.), retų augalų rūšių augaviečių ([[Augalų rūšių, įrašytų į Raudonąją knygą, augavietė|Baltupių augavietė]], [[kardalapio garbenio augavietė]]. Vaizdingiausios vietos saugomos [[Pavilnių regioninis parkas|Pavilnių]] ir [[Verkių regioninis parkas|Verkių]] regioniniuose parkuose, įsteigta daug draustinių.
+
+<gallery>
+Seskines ozas by Augustas Didzgalvis.jpg|[[Šeškinės ozas]]
+Balžis iš rytų.JPG|[[Balžis|Balžio ežeras]]
+Vilnia by Augustas Didzgalvis.jpg|[[Vilnelė|Vilnios upė]]
+Vingio parkas by Augustas Didzgalvis.jpg|[[Vingio parkas]] (2021)
+Vingis 2.JPG|[[Vingio parkas]] (2014)
+</gallery>
+
+{{Vilniaus miesto saugomos teritorijos}}
+
+=== Klimatas ===
+Klimatas yra pereinamasis, šiltos vasaros ir šaltos žiemos. Vidutinė metinė temperatūra yra +6,6&nbsp;°C. Šalčiausia sausį (vidutinė temperatūra −4&nbsp;°C), o šilčiausia liepą (vidutinė temperatūra 17&nbsp;°C). Vidutinis kritulių kiekis – 688 mm.
+
+Pasitaiko šiltų vasarų (>30&nbsp;°C). Galimos savaites besitęsiančios [[Sausra|sausros]].
+
+Būna šaltų žiemų (naktimis −30&nbsp;°C), užšąla upės.
+
+Sniego danga Vilniuje, kaip ir visoje Rytų Lietuvoje, būna storesnė, negu kitur Lietuvoje.
+
+Oro temperatūra matuojama nuo 1770 m. (duomenys išlikę nuo 1777 m.), krituliai nuo 1887 m.<ref>{{EL|1|76|Klimato svyravimai}}</ref>
+{{Infobox Weather
+|metric_first= Yes
+|single_line= Yes
+|location = Vilniaus
+|Jan_Hi_°C = -1.8 |Jan_REC_Hi_°C = 10.9 |Jan_REC_Hi_m = 2007
+|Feb_Hi_°C = -1.1 |Feb_REC_Hi_°C = 14.4 |Feb_REC_Hi_m = 1990
+|Mar_Hi_°C = 3.8 |Mar_REC_Hi_°C = 19.8 |Mar_REC_Hi_m = 1990
+|Apr_Hi_°C = 12.1 |Apr_REC_Hi_°C = 29.0 |Apr_REC_Hi_m = 2012
+|May_Hi_°C = 18.4 |May_REC_Hi_°C = 31.8 |May_REC_Hi_m = 1931
+|Jun_Hi_°C = 20.9 |Jun_REC_Hi_°C = 33.4 |Jun_REC_Hi_m = 1940
+|Jul_Hi_°C = 23.2 |Jul_REC_Hi_°C = 35.4 |Jul_REC_Hi_m = 1959
+|Aug_Hi_°C = 22.4 |Aug_REC_Hi_°C = 34.9 |Aug_REC_Hi_m = 1992
+|Sep_Hi_°C = 16.6 |Sep_REC_Hi_°C = 32.0 |Sep_REC_Hi_m = 1992
+|Oct_Hi_°C = 10.2 |Oct_REC_Hi_°C = 24.5 |Oct_REC_Hi_m = 1942
+|Nov_Hi_°C = 3.3 |Nov_REC_Hi_°C = 15.5 |Nov_REC_Hi_m = 2002
+|Dec_Hi_°C = -0.7 |Dec_REC_Hi_°C = 10.5 |Dec_REC_Hi_m = 1960
+|Year_Hi_°C = 10.6 |Year_REC_Hi_°C = 35.4 |Year_REC_Hi_m = 1959
+|Jan_Lo_°C = -6.7 |Jan_REC_Lo_°C = -37.2 |Jan_REC_Lo_m = 1940
+|Feb_Lo_°C = -6.9 |Feb_REC_Lo_°C = -35.8 |Feb_REC_Lo_m = 1956
+|Mar_Lo_°C = -3.5 |Mar_REC_Lo_°C = -29.6 |Mar_REC_Lo_m = 1964
+|Apr_Lo_°C = 2.1 |Apr_REC_Lo_°C = -14.4 |Apr_REC_Lo_m = 1931
+|May_Lo_°C = 7.3 |May_REC_Lo_°C = -4.4 |May_REC_Lo_m = 1995
+|Jun_Lo_°C = 10.6 |Jun_REC_Lo_°C = 0.1 |Jun_REC_Lo_m = 1982
+|Jul_Lo_°C = 12.9 |Jul_REC_Lo_°C = 3.5 |Jul_REC_Lo_m = 1977
+|Aug_Lo_°C = 12.1 |Aug_REC_Lo_°C = 1.0 |Aug_REC_Lo_m = 1966
+|Sep_Lo_°C = 7.8 |Sep_REC_Lo_°C = -4.8 |Sep_REC_Lo_m = 1986
+|Oct_Lo_°C = 3.5 |Oct_REC_Lo_°C = -14.4 |Oct_REC_Lo_m = 1956
+|Nov_Lo_°C = -1.1 |Nov_REC_Lo_°C = -22.8 |Nov_REC_Lo_m = 1890
+|Dec_Lo_°C = -5.3 |Dec_REC_Lo_°C = -30.5 |Dec_REC_Lo_m = 1978
+|Year_Lo_°C = 2.7 |Year_REC_Lo_°C = -37.2 |Year_REC_Lo_m = 1940
+|Jan_Av_°C = -4.1 
+|Feb_Av_°C = -3.9 
+|Mar_Av_°C = 0.1 
+|Apr_Av_°C = 6.9 
+|May_Av_°C = 12.8 
+|Jun_Av_°C = 15.6 
+|Jul_Av_°C = 17.9 
+|Aug_Av_°C = 17.0 
+|Sep_Av_°C = 12.0 
+|Oct_Av_°C = 6.7 
+|Nov_Av_°C = 1.2 
+|Dec_Av_°C = -2.8 
+|Year_Av_°C = 6.6
+
+<!--**** use mm or cm but not both! ****-->
+|Jan_Precip_cm = |Jan_Precip_mm = 48 
+|Feb_Precip_cm = |Feb_Precip_mm = 37
+|Mar_Precip_cm = |Mar_Precip_mm = 42
+|Apr_Precip_cm = |Apr_Precip_mm = 42
+|May_Precip_cm = |May_Precip_mm = 64
+|Jun_Precip_cm = |Jun_Precip_mm = 75
+|Jul_Precip_cm = |Jul_Precip_mm = 92
+|Aug_Precip_cm = |Aug_Precip_mm = 73
+|Sep_Precip_cm = |Sep_Precip_mm = 61
+|Oct_Precip_cm = |Oct_Precip_mm = 56
+|Nov_Precip_cm = |Nov_Precip_mm = 46
+|Dec_Precip_cm = |Dec_Precip_mm = 53
+|Year_Precip_cm = |Year_Precip_mm = 688
+|source = Vilniaus klimatas<ref name="pogoda">{{cite web|url=http://www.pogodaiklimat.ru/climate2/26730.htm|title=Vilniaus klimatas|accessdate=2016-08-24|work=|language=ru}}</ref>
+|accessdate = 2016 08 24
+}}
+
+== Istorija ==
+{{main|Vilniaus istorija}}
+[[Vaizdas:Vilnius panorama.jpg|thumb|XIX a. panorama (Zygmuntas Fogelis)]]
+Pavadinimas kilęs nuo mieste tekančios [[Vilnia|Vilnios]] upės.<ref>{{cite web|title=Lietuvos regionų portretas – Vilniaus miesto savivaldybė|publisher=Statistikos departamentas prie Lietuvos Respublikos Vyriausybės|url=http://regionai.stat.gov.lt/lt/vilniaus_apskritis/vilniaus_miesto_savivaldybe.html|accessdate=19 gruodžio 2017|archive-date=2018-01-09|archive-url=https://web.archive.org/web/20180109194724/http://regionai.stat.gov.lt/lt/vilniaus_apskritis/vilniaus_miesto_savivaldybe.html|url-status=dead}}</ref> Upėvardis ''Vilnia'' sietinas su bendriniu [[lietuvių kalba|lietuvių kalbos]] žodžiu ''vilnia'' (bendrinėje kalboje įsigalėjęs variantas ''vilnis''). Senoji Vilniaus vardo forma ''Vilnia'' žinoma rytų Lietuvos tarmėse. Apie XV a. įsigalėjo vardo forma ''Vilnius'', kuri padaryta pagal tą patį modelį kaip ''Alyta'' (upės vardas) ir ''Alytus'' (miesto vardas). Vardo ''Vilnius'' formos yra užrašytos XVI amžiaus [[Lietuvos raštija|lietuviškuose raštuose]]. [[Lotynų kalba|Lotynų kalboje]] yra išlikusi senoji Vilniaus vardo forma ''Vilna''.[[Vaizdas:Ldk_Gediminas_Vilniui-690.jpeg|thumb|left|Medalis „Lietuvos didysis kunigaikštis Gediminas. Vilniui – 690 metų“ ([[Lina Kalinauskaitė]])]]
+
+Kada įkurta Vilniaus gyvenvietė, neaišku. Apie miesto įkūrimą sukurta [[Geležinio Vilko legenda]]. Vėlyvojo [[bronzos amžius|bronzos amžiaus]] (XIII a. iki m. e.), ankstyvojo [[geležies amžius|geležies amžiaus]], bei [[Antika|romėniškojo laikotarpio]] pradžioje (III a.), kaip visoje [[Lietuva|Lietuvoje]] į rytus nuo [[Šventoji|Šventosios]] upės ir vakarų [[Baltarusija|Baltarusijoje]] vyravo [[brūkšniuotosios keramikos kultūra|brūkšniuotosios keramikos]] [[archeologinė kultūra]]. Jos palikuonys, [[baltai|baltų]] genčių gentis – [[Lietuviai (rytiniai senlietuviai)|aukštaičiai]]. Pats Vilnius pirmą kartą paminėtas rašytiniuose šaltiniuose Lietuvos didžiojo kunigaikščio [[Gediminas|Gedimino]] 1323 m. [[Gedimino laiškai|laiške]] Vokietijos miestams. 1387 m. kovo 22 d. Lenkijos karalius ir Lietuvos didysis kunigaikštis [[Jogaila]] Merkinėje suteikė Vilniui [[Magdeburgo teisė|Magdeburgo teises]], kurios vėliau tapo pavyzdžiu daugeliui kitų [[LDK|Lietuvos Didžiosios Kunigaikštystės]] miestų. 1579 m. Lietuvos didysis kunigaikštis ir Lenkijos karalius [[Steponas Batoras]] mieste įkūrė [[Vilniaus universitetas|universitetą]]. Universitetas greitai tapo svarbiausiu regiono moksliniu ir kultūriniu centru. Vilnius taip pat tapo [[Žydai|žydų]] kultūros Šiaurės Europoje centru. [[1610 m. Vilniaus gaisras|1610 m. Vilnių nusiaubė gaisras]], labai nukentėjo [[Vilniaus universitetas]], [[Vilniaus universiteto biblioteka]] ir archyvas.
+
+[[Vaizdas:Wilno 1934.jpg|thumb|1934 m. žemėlapis]]
+
+[[Švedų tvanas|„Tvano“]] metu 1655 m. į Vilnių įžengė [[Rusijos caras]] ir miestą pirmą kartą užėmė ir valdė Rusijos armija. Miestas kelias dienas buvo plėšiamas, sudegintas, didelė dalis gyventojų išžudyta. Nors rusai paliko miestą po 13 metų, bet Vilniaus augimas ilgam buvo sustabdytas. Šiaurės karo metu (1702 ir 1707 m.) Vilnių buvo užėmusi švedų kariuomenė. XVIII a. miesto augimą stabdė dideli [[1737 m. Vilniaus gaisras|gaisrai 1737 m.]], [[1748 m. didysis Vilniaus gaisras|1748 m.]], [[1749 m. Vilniaus gaisras|1749 m.]]
+
+Nuo 1795 m. iki [[Pirmasis pasaulinis karas|Pirmojo pasaulinio karo]], kaip ir visa Lietuva, Vilnius buvo [[Rusijos imperija|Rusijos imperijos]] sudėtyje, buvo [[Vilniaus gubernija|gubernijos]] centras.<ref>{{SGKP|13|492|Wilno}}</ref> Po [[1831 m. sukilimas|1831 m. sukilimo]] Rusijos valdžia uždarė Vilniaus universitetą kaip nacionalistinių jėgų židinį. Vilnius vystėsi kaip Rusijos gubernijos sostinė, tačiau turėjo ir regioninę reikšmę. Carmečiu Vilnius buvo generalgubernijos sostinė, Šiaurės-Vakarų krašto centras.
+
+1915–1918 m. Vilnių buvo užėmę vokiečiai. 1920 m. miestą okupavo ir netrukus aneksavo [[Lenkija]], Lietuvos sostinė perkelta į [[Kaunas|Kauną]]. 1919–1939 m. Vilniuje veikė lenkiškas Stepono Batoro universitetas. 1931 m. miestą ištiko didžiulis pavasario potvynis – [[Neris]] buvo pakilusi 825 cm virš nulinės žymos, užlieti net [[Vilniaus arkikatedra|Vilniaus arkikatedros]] rūsiai.
+
+1939 m. prasidėjus [[Antrasis pasaulinis karas|Antrajam pasauliniam karui]] [[Raudonoji armija]] užėmė Vilnių. 1939 m. Vilnius buvo perduotas Lietuvos Respublikai. 1940 m. vasarą kartu su visa Lietuva Vilnius buvo okupuotas ir aneksuotas [[Sovietų Sąjunga|Sovietų Sąjungos]]. 1941 m. vasarą vokiečių kariuomenei užėmus Lietuvą, didžioji dauguma žydų gyventojų tapo [[Nacionalsocializmas|nacionalsocialistų]] vykdytos [[Holokaustas Lietuvoje|žydų naikinimo]] politikos aukomis. Daugelis jų buvo suvaryti į [[Vilniaus getas|getą]] Vilniaus senamiestyje, išvežti į koncentracijos stovyklas ir ten nužudyti. Per karą sugriauta apie 40&nbsp;% namų.
+[[File:Panorama of the Vilnius Old Town, 1944.jpg|thumb|Vilniaus panorama (1944 m., fotografas [[Janas Bulhakas]])]]
+1944 m. Vilnių užėmė sovietai, jis tapo [[Lietuvos SSR]] sostine, atstatytas po karo nuniokojimų. Prasidėjo daugiabučių namų, naujų Vilniaus rajonų statyba. Lietuvą [[Rusinimas|rusinant]] į statomas Vilniuje gamyklas perkelti kitataučiai darbininkai, Vilniaus teritorijoje [[Šiaurės miestelis|Šiaurės miestelyje]] dislokuota [[Sovietinė armija|sovietų armijos]] [[divizija]]. Nuo 1963 m. regiono geležinkeliai tapo pavaldūs [[Pabaltijo geležinkelis|Pabaltijo geležinkelio]] Rygos valdybos Vilniaus apygardai.
+
+Pokariu Vilniuje sparčiai vystėsi ekonomika: mašinų pramonė, metalo apdirbimas, statybų, medienos, lengvoji, maisto, chemijos pramonė. Įkurtos didelės staklių gamyklos („[[Komunaras (gamykla)|Komunaras]]“, „Žalgiris“), elektrotechnikos gamykla „[[Elfa]]“, baldų kombinatai, konditerijos fabrikas „[[Vilniaus pergalė|Pergalė]]“, siuvimo fabrikas „[[Lelija (gamybinis susivienijimas)|Lelija]]“, plastiko, skaičiavimo mašinų gamyklos, mašinų kombinatas. Pastatyta [[Vilniaus termofikacinė elektrinė]].
+
+1987–1991 m. Vilniuje vyko masiniai mitingai, nukreipti prieš sovietinį režimą. [[Kovo 11 aktas|1990 m. kovo 11 d. Lietuva pasiskelbė nepriklausomybę]] nuo [[TSRS|Sovietų sąjungos]]. 1991 m. sausio 9 d. sovietai atsiuntė į Vilnių [[Sovietinė armija|karių]], kurie [[Sausio įvykiai (1991 m.)|sausio 13-ąją]] užėmė [[Vilniaus televizijos bokštas|Televizijos bokštą]], nužudė 14 žmonių.
+
+1994 m. [[Vilniaus senamiestis]] įtrauktas į [[UNESCO pasaulio paveldas|UNESCO Pasaulio kultūros paveldo]] sąrašą. 2009 m. Vilnius [[Vilnius – Europos kultūros sostinė 2009|tapo Europos kultūros sostine]].
+
+== Savivaldybė ==
+{{main|Vilniaus miesto savivaldybė}}
+[[Vaizdas:VMSA by Augustas Didzgalvis.jpg|thumb|left|Savivaldybės pastato fasadas]]
+
+Miesto savivaldybė priklauso [[Vilniaus apskritis|Vilniaus apskričiai]]. Vienintelė miesto savivaldybė Lietuvoje, apimanti ne vieną miestą (kaip kitų miestų savivaldybės), bet du miestus (Vilnių ir [[Grigiškės|Grigiškes]]) bei tris kaimus ([[Grigiškių seniūnija|Grigiškių seniūnijoje]]). Savivaldybės teritorijoje telkšo [[Vilniaus miesto ežerai|18 ežerų]].
+
+Savivaldybės atstovaujamoji valdžia – [[Vilniaus miesto savivaldybės taryba]], vykdomoji valdžia – Vilniaus savivaldybės administracija.
+
+== Ekonomika ==
+{{Tvarkyti|nuo=2020 m. rugsėjo|netvarkingas_nuo=2004 m. kovo}}
+[[Vaizdas:Logo of Vilnius.svg|miniatiūra|Miesto [[logotipas]]]]
+[[Baltijos šalys|Baltijos šalių]] finansinis centras. Mieste daug stambių Lietuvos įmonių ir visi Lietuvos bankai. Jis pasižymi sparčiausiais augimo tempais, aukščiausiu [[BVP]] vienam gyventojui. Taip yra dėl [[Sostinė|sostinės]] statuso, valdžios institucijų išsidėstymo, užsienio investicijų.
+
+2020 m. pradžioje mieste veikė ~37 tūkst. įmonės, kuriose dirbo ~358 tūkst. žmonių.{{faktas}}
+
+2019 m. [[Vilniaus miesto savivaldybė|Vilniaus savivaldybės]] biudžetas sudarė ~660 mln. eurų.{{faktas}}
+
+2019 m. mieste pastatyti 4792 gyvenamieji namai. Iš jų 1998 1–2 butų gyvenamieji namai ir 2794 trijų arba daugiau butų gyvenamieji namai. Atlikti statybos darbai, to meto kainomis vertinami, 915 mln. EUR.{{faktas}}
+
+2018 m. [[Vilniaus apskritis|Vilniaus apskrityje]] vienam gyventojui teko 23&nbsp;400 EUR [[BVP]]. Tai daugiau nei du kartus viršijo [[Alytaus apskritis|Alytaus]], [[Marijampolės apskritis|Marijampolės]], [[Tauragės apskritis|Tauragės]], [[Telšių apskritis|Telšių]] ir [[Utenos apskritis|Utenos]] apskričių rodiklius. Palyginti su 2017 m., sukurto BVP dalis padidėjo 1,1 %.
+
+Sostinės regione buvo sukurta 18,9 mlrd. eurų (41,8%) Lietuvos BVP. BVP vienam gyventojui 1,8 karto viršijo Vidurio ir vakarų Lietuvos regiono lygį.<ref>https://osp.stat.gov.lt/informaciniai-pranesimai?articleId=7016550</ref>
+
+2018 m. tiesioginės užsienio investicijos, tenkančios vienam gyventojui, laikotarpio pabaigoje buvo 20&nbsp;586 EUR ir iš viso sudarė 11,4 mlrd. EUR.
+
+Pagaminama 16% Lietuvos gaminių. Veikia 2 šiluminės jėgainės, kiti svarbūs objektai.
+
+Vilniaus turizmo sektorius sparčiai auga ir ženkliai papildo miesto biudžetą.
+{| class="wikitable"
+|+
+|rowspan="2" |
+|colspan="6" |'''Turistų skaičius Vilniaus apgyvendinimo įstaigose¹'''
+|-
+|align=center|'''2014'''
+|align=center|'''2015'''
+|align=center|'''2016'''
+|align=center|'''2017'''
+|align=center|'''2018'''
+|align=center|'''2019'''
+|-
+|Užsieniečiai
+|764 617
+|799 954
+|842 632
+|876 053
+|970 577
+|1 090 113
+|-
+|Lietuvos gyventojai
+|163 786
+|178 887
+|189 622
+|194 683
+|230 281
+|266 654
+|-
+|align=right|'''''Visi turistai:'''''
+|928 403
+|978 841
+|1 032 254
+|1 070 736
+|1 200 858
+|1 356 767
+|}
+¹ — ''Apgyvendinimo įstaigos – viešbučiai ir panašios laikinos buveinės; poilsiautojų ir kitas trumpalaikis apgyvendinimas; poilsinės transporto priemonės, priekabų aikštelės ir stovyklavietės.<ref>https://osp.stat.gov.lt/lt/statistiniu-rodikliu-analize</ref>''
+
+== Susisiekimas ==
+=== Tiltai ===
+{{main|Sąrašas:Tiltai per Vilnią}}
+[[Vaizdas:Baltasis tiltas by Augustas Didzgalvis.jpg|thumb|Baltasis tiltas]]
+[[Vaizdas:Liubarto tiltas, 2006-08-08.jpg|thumb|Liubarto tiltas]]
+[[Vaizdas:Zirmunai Bridge in Vilnius.jpg|thumb|Žirmūnų tiltas]]
+
+Yra 13 tiltų per [[Neris|Nerį]] (3 pėsčiųjų), >20 tiltų per mažesnes upes – [[Vilnia|Vilnią]], [[Veržuva (upė)|Veržuvą]], [[Baltupis|Baltupį]] ir kitas.
+
+{|
+|width=15% valign="top"|
+Tiltai per Nerį (prieš srovę):
+* [[Gariūnų tiltas]]
+* [[Bukčių tiltas]] (''pėsčiųjų'')
+* [[Lazdynų tiltas]]
+* [[Vingio parko tiltas]] (''pėsčiųjų'')
+* [[Liubarto tiltas]]
+* [[Žvėryno tiltas]]
+* [[Geležinio Vilko tiltas]]
+* [[Baltasis tiltas]] (''pėsčiųjų'')
+* [[Žaliasis tiltas (Vilnius)|Žaliasis tiltas]]
+* [[Mindaugo tiltas]]
+* [[Žirmūnų tiltas]]
+* [[Šilo tiltas]]
+* [[Valakampių tiltas|Valakupių tiltas]]
+|width=15% valign="top"|
+Svarbesni tiltai per Vilnią (prieš srovę):
+* [[Pilies tiltas (Vilnius)|Pilies tiltas]]
+* [[Dailės akademijos tiltas]]
+* [[Bernardinų tiltas]]
+* [[Užupio tiltas]]
+* [[Paplaujos tiltas]]
+* [[Zarasų tiltas]]
+* [[Belmonto tiltas]]
+* [[Stepono Batoro gatvės tiltas]]
+* [[Rokantiškių geležinkelio tiltas]]
+* [[Pergalės tiltas]]
+* [[Linksmosios gatvės tiltas]]
+|}
+
+=== Keliai ===
+Išeina 2 automagistralės: {{A1}} ir {{A2}}.
+
+Ir 5 magistraliniai keliai: {{A3}} (į [[Medininkai|Medininkus]]), {{A4}} (į [[Druskininkai|Druskininkus]]), {{A14}}, {{A15}} (į [[Šalčininkai|Šalčininkus]]) ir {{A16}}.
+
+=== Viešasis transportas ===
+[[Vaizdas:Solaris bus and trolleybuses in Vilnius.jpg|miniatiūra|Vilniaus autobusas [[Solaris Urbino|Solaris Urbino 18]] ir troleibusas Solaris Trollino 12 (fone)]]
+{{main|Vilniaus viešasis transportas}}
+
+[[Viešasis transportas|Viešąją transportą]] valdo įmonės „Vilniaus viešasis transportas“ ir „[[Transrevis]]“. Kursuoja 20 [[Vilniaus troleibusai|troleibusų maršrutų]], 6 greitieji maršrutai ir 72 [[Sąrašas:Vilniaus autobusų maršrutai|autobusų maršrutai]].<ref>[http://www.vilniustransport.lt/autobusai.html duomenimis] {{Webarchive|url=https://web.archive.org/web/20100207025427/http://www.vilniustransport.lt/autobusai.html |date=2010-02-07 }}</ref> Didžiausias numeris yra 116. Pirmoji linija nutiesta 1955 m., pirmieji [[Troleibusas|troleibusai]] mieste ėmė kursuoti 1956 m. Yra [[Vilniaus funikulierius]].
+
+2012 m. pradžioje į gatves išriedėjo Lietuvoje surinkti troleibusai „Amber Vilnis 12 AC“.<ref>Vilniuje surinkti troleibusai „Amber Vilnis“ išriedės į gatves</ref>
+
+2013 m. liepos 1 d. įsigaliojo viešojo transporto pokyčiai. Atsirado 5 greitieji autobusų maršrutai, atsirado privežamieji maršrutai, juose įrengtos papildomos stotelės. Nebeliko dalies maršrutų, pasikeitė maršrutų trasos ir grafikai, maršrutų numeracija.
+
+[[2024]] m. [[rugpjūčio 22]] d. prasidėjo Vilniaus troleibusų atnaujinimo projektas – į sostinės gatves išvažiavo pirmieji 20 naujų „Škoda 32 Tr“ troleibusų. Iki [[2025]] m. kovo mėnesio Vilniuje iš viso bus naudojamas 91 naujas tokio tipo troleibusas.<ref>[https://vilnius.lt/lt/2024/08/22/sostines-gatvemis-jau-kursuoja-20-nauju-troleibusu/ Sostinės gatvėmis jau kursuoja 20 naujų troleibusų]</ref>
+
+Yra [[Vilniaus geležinkelio stotis]], [[Vilniaus tarptautinis oro uostas]], [[Vilniaus autobusų stotis]].
+
+Veikia privatūs autobusų vežėjai („[[Eurolines]]“, „[[Ollex]]“).
+
+=== Bevielis internetas ===
+Veikia dešimtys nemokamo [[Wi-Fi]] zonų:<ref>http://www.cgates.lt/lt/internetas/nemokamas-wifi-mieste</ref><ref>http://www.vilnius.lt/ataskaita/?page_id=1440</ref>
+* Vokiečių gatvė ir „Čili kaimo“ lauko restoranas
+* [[Vilniaus rotušės aikštė|Rotušės aikštė]]
+* [[Konstantinas Sirvydas|Konstantino Sirvydo]] skveras
+* [[Stanislovas Moniuška|Stanislovo Moniuškos]] skveras (prie šv. [[Vilniaus Šv. Kotrynos bažnyčia|Kotrynos bažnyčios]])
+* Mokytojų namų kiemelis
+* [[Baltasis tiltas|Baltojo tilto]] poilsio zona
+* [[Katedros aikštė]]
+* Odminių skveras (priešais [[Katedros aikštė|Katedros aikštę]])
+* [[Vinco Kudirkos aikštė]]
+* [[Vilniaus gatvė (Vilnius)|Vilniaus gatvė]]
+* [[Europos aikštė]]
+
+== Gyventojai ==
+{{Atnaujinti|Atnaujinti grafiką, be paaiškinimo paveikslėlis}}
+[[Vaizdas:Vilniaus gyventojai pagal gimimo metus.JPG|kairėje|frameless|800px|Vilniaus gyventojų pasiskirstymas pagal gimimo metus]]
+{{dem|kolon=10|till=600000|inc=100000|incmin=20000|width=1430
+|1769|17500
+|1811|56300
+|1818|33600
+|1823|46700
+|1834|52300
+|1859|58200
+|1860|60040|r1860=<ref name="GSSRI">{{GSSRI|1|460|Вильно}}</ref>
+|1875|82700
+|1889|109329|r1889=<ref name="ESBE"/>
+|1897|154532
+|1909|205200
+|1916|140800
+|1919|128500
+|1923|167400|r1923=<ref>{{1923sur}}</ref>
+|1931|195071
+|1939|209442
+|1941|270000
+|1944|110000
+|1951|179000
+|1959|236100|r1959=<ref name="1959-70sur">{{1959-70sur}}</ref>
+|1970|372000|r1970=<ref name="MLTE">{{MLTE|3|778||Vilnius}}</ref>
+|1979|475825|r1979=<ref>{{1979sur}}</ref>
+|1983|525000|r1983=<ref name="LTE">{{LTE|12|271||Vilnius}}</ref>
+|1987|566000
+|1988|578500|r1987=<ref name="TLE">{{TLE|4|558||Vilnius}}</ref>
+|1989|582500|r1989=<ref>{{1989sur}}</ref>
+|1991|597700
+|2001|542287|r2001=<ref>{{2001sur(Vilnius)}}</ref>
+|2007|542782
+|2011|542932
+|2017|545033
+|2021|546155|r2021=<ref>{{2021sur}}</ref>
+|2023|581475|r2023=<ref name="stat.gov.lt/2023">stat.gov.lt / [https://osp.stat.gov.lt/web/guest/statistiniu-rodikliu-analize?hash=671bd94d-a0f4-424f-b919-f5da1d19c30a#/ Nuolatinių gyventojų skaičius miestuose metų pradžioje]</ref>
+}}
+
+{{Atnaujinti|Atnaujinti duomenis}}
+{|class="wikitable sortable" style="text-align:center;"
+|-
+|colspan="14" style="background:#CCC; color:black"|'''Kintanti Vilniaus gyventojų etninė sudėtis'''
+|- style="background:#95b2c9;"
+! Metai
+! Lietuviai
+! %
+! Lenkai
+! %
+! Rusai
+! %
+! Žydai
+! %
+! Gudai
+! %
+! Kiti
+! %
+! IŠ VISO
+|-
+|'''1897'''<ref>{{ru icon}} [http://demoscope.ru/weekly/ssp/rus_lan_97_uezd.php?reg=91 г. Вильна] Первая всеобщая перепись населения Российской Империи 1897 г.</ref>
+|3,131
+|'''2'''
+|47,795
+|'''30.1'''
+|30,967
+|'''20'''
+|61,847
+|'''40'''
+|6,514
+|'''4.2'''
+|10,792
+|'''6.9'''
+|154,532
+|-
+|'''1931'''<ref name="Der Große Brockhaus 1935, p. 348">''Der Große Brockhaus''. 15th edition, vol. 20, Leipzig 1935, p. 348.</ref>
+|1,579
+|'''0.8'''
+|128,600
+|'''65.5'''
+|7,400
+|'''3.8'''
+|54,600
+|'''27.8'''
+|1,700
+|'''0.9'''
+|4,166
+|'''2.1'''
+|196,345
+|-
+|'''1959'''<ref name="Snyder 92-93">Timothy Snyder, ''The Reconstruction of Nations'', p. 92-93, 2003 New Haven & London, Yale University Press, ISBN 978-0-300-10586-5</ref>
+|79,400
+|'''34'''
+|47,200
+|'''20'''
+|69,400
+|'''29'''
+|16,400
+|'''7'''
+|14,700
+|'''6'''
+|9,000
+|'''3,8'''
+|236,100
+|-
+|'''2001'''<ref>[http://www.stat.gov.lt/vilniussampling/vskaiciais/05_gyventojai.pdf Vilnius Regional Statistical Office] {{Webarchive|url=https://web.archive.org/web/20120417122827/http://www.stat.gov.lt/vilniussampling/vskaiciais/05_gyventojai.pdf |date=2012-04-17 }}</ref>
+|318,510
+|'''57.5'''
+|104,446
+|'''18.9'''
+|77,698
+|'''14.1'''
+|300
+|'''0.5'''
+|22,555
+|'''4.1'''
+|30,695
+|'''5.5'''
+|553,904
+|-
+|'''2012'''<ref>[http://www.stat.gov.lt/uploads/Lietuvos_gyventojai_2011.pdf Statistics Department of Lithuania] {{Webarchive|url=https://web.archive.org/web/20200229144415/https://www.stat.gov.lt/uploads/Lietuvos_gyventojai_2011.pdf |date=2020-02-29 }}</ref>
+|337,000
+|'''63.2'''
+|88,380
+|'''16.5'''
+|64,275
+|'''12'''
+|N/A
+|'''N/A'''
+|18,750
+|'''3.5'''
+|25,710
+|'''4.8'''
+|535,631
+|}
+
+=== Pagal tikybą (2011 m.) ===
+* [[Romos katalikai]] – 65,5 %
+* [[Stačiatikiai]] – 8,9 %
+* [[Sentikiai]] – 1,0 %
+* [[Evangelikai liuteronai]] – 0,3 %
+* [[Evangelikai reformatai]] – 0,2 %
+* [[Musulmonai]] – 0,1 %
+* [[Judėjai]] – 0,1 %
+* Kiti – 1,0 %
+* Netikintys/nenurodė – 22,7 %
+
+=== Žymūs žmonės ===
+Kultūros ir mokslo lopšys. Gyveno, dirbo, kūrė [[Laurynas Stuoka-Gucevičius]], [[Adomas Mickevičius]], [[Česlovas Milošas]], [[Juozas Tumas-Vaižgantas]], [[Mikalojus Konstantinas Čiurlionis]], [[Simonas Stanevičius]], [[Žemaitė]], [[Simonas Daukantas]], [[Liudas Gira]], [[Petras Cvirka]]. Gimė ir gyveno smuikininkas–virtuozas [[Jaša Heifecas]], vaikystę praleido vienas drabužių parduotuvių tinklo „Marks and Spencer“ įkūrėjų Mikelis Marksas.
+
+== Miesto objektai ==
+[[Vaizdas:Vilnus Montage (2016).png|miniatiūra|kairėje|Iš kairės į dešinę:{{hlist|[[Vilniaus Šv. Onos bažnyčia|Šv. Onos]] ir [[Vilniaus Šv. Pranciškaus Asyžiečio bažnyčia|Bernardinų]] bažnyčių ansamblis|[[Gedimino bokštas]]|[[Aušros vartai]]|[[Pilies gatvė]]|[[Šnipiškės]]|[[Lietuvos Respublikos prezidentūra]]}}]]
+
+=== Aukštutinė pilis ===
+[[Vaizdas:Gedimino pilis by Augustas Didzgalvis.jpg|miniatiūra]]
+{{main|Vilniaus Aukštutinė pilis}}
+Gedimino kalno ovalioje aikštelėje stūkso [[Vilniaus Aukštutinė pilis|Vilniaus aukštutinės pilies]] liekanos su [[Gedimino bokštas|Gedimino bokštu]]. Kalno aukštis nuo papėdės siekia 47–48 m. Pasižymi stačiais šlaitais (35°–40°).
+
+=== Katedros aikštė ===
+[[Vaizdas:Vilnius (Wilno) - cathedral.jpg|miniatiūra|Katedros aikštė]]
+{{main|Katedros aikštė}}
+[[Vilnelė]]s ir [[Neris|Neries]] santakoje susiformavusi erdvė, kurioje kaip miniatiūroje atsispindi ne tik Vilniaus, bet ir visa [[Lietuvos istorija]]. Visos šios istorijos liudininkai yra pagrindinė Lietuvos šventykla – [[Vilniaus arkikatedra]], taip pat su miesto įkūrėju [[Gediminas|Gediminu]] siejamos [[Vilniaus Aukštutinė pilis|Vilniaus Aukštutinė]] bei [[Žemutinė pilis|Žemutinė]] pilys. [[Aukštutinė pilis|Aukštutinę pilį]] mena Vilniaus simboliu tapęs [[Gedimino bokštas]] (nuo kurio atsiveria vieni gražiausių vaizdų į Vilnių ir jo [[Vilniaus senamiestis|senamiestį]]), o [[Žemutinė pilis|Žemutinę]] – šiandien atkurti XVIII a. pab. nugriauti [[Valdovų rūmai]]. Anapus [[Vilnelė]]s kalvose matomi [[Trijų Kryžių paminklas|Trys kryžiai]], sukurti 1916 m. pagal [[Antanas Vivulskis|Antano Vivulskio]] projektą, kurie ženklina seniausių laikų Gedimino Vilnių.<ref>Virtualus istorinis Vilnius. 10 Vilniaus erdvių.</ref>
+
+=== Rotušės aikštė ===
+[[Vaizdas:Rotuses aikste by Augustas Didzgalvis.jpg|miniatiūra]]
+{{main|Rotušės aikštė}}
+
+Svarbiausia „miestietiškojo” Vilniaus erdvė – nuo vidurmažių miesto savivaldą simbolizavusios Rotušės aikštė. Jos centre – klasicistinė [[Vilniaus rotušė|Rotušė]], sukurta žymiausio šio stiliaus architekto Lietuvoje, [[Vilniaus arkikatedra|Katedros]] autoriaus [[Laurynas Stuoka-Gucevičius|Lauryno Gucevičiaus]], savo stiliumi sujungianti dviejų pagrindinių senojo Vilniaus aikščių – Katedros ir Rotušės – urbanistinius akcentus. [[Vilniaus rotušės aikštė|Rotušės aikštės]] tolimiausiame kampe – [[Vilniaus Šv. Kazimiero bažnyčia|Šv. Kazimiero bažnyčia]], kuri yra vienas ankstyviausių [[Barokas|Baroko]] paminklų Vilniuje. Bažnyčios [[kertinis akmuo]] padėtas 1604 m. Lietuvos globėjo karalaičio [[Šv. Kazimieras|šv. Kazimiero]] kanonizacijai skirtų iškilmių, kurios tapo simboline Baroko epochos pradžia Lietuvoje.
+
+=== Aušros Vartai ===
+Nuo [[Vilniaus rotušės aikštė|Rotušės aikštės]] [[Aušros vartai|Aušros vartų]] gatvė veda link vienintelių likusių gynybinės sienos Aušros vartų. Prie jų yra svarbiausias šios vietos akcentas – Aušros Vartų koplyčia su garsiuoju [[Aušros Vartų Švč. Mergelės Marijos, Gailestingumo Motinos, koplyčia|Švč. Mergelės Marijos paveikslu]], kurį išgarsino didieji Vilniaus romantikai [[Adomas Mickevičius]] ir [[Julijus Slovackis]]. Aušros Vartų koplyčia – vienas svarbiausių [[Marija (Jėzaus motina)|Švč. Mergelės Marijos]] kulto centrų visoje [[Vidurio Europa|Vidurio Europoje]], [[Lenkija|Lenkijoje]] reikšme ir garsu lygintinas tik su [[Čenstakavos sanktuariumas|Čenstakavos sanktuariumu]]. Aušros Vartų erdvė primena, kad Vilnius yra „Šiaurės Jeruzalė” ne tik dėl vaidmens [[Žydai|žydų]] kultūroje. Čia greta glaudžiasi trys [[Krikščionybė|krikščioniškos]] konfesijos. Šalia Aušros Vartų – dar ir katalikų [[Šv. Teresės bažnyčia]] ir karmelitų vienuolynas, o greta – stačiatikių Šv. Dvasios cerkvė, kurioje yra XIV a. Vilniaus stačiatikių [[Kankinys|kankinių]] palaikai. Kitoje gatvės pusėje už [[Jonas Kristupas Glaubicas|Jono Kristupo Glaubico]] projektuotų vartų yra ir graikų apeigų katalikų [[Bazilijonų vienuolynas]] bei Švč. Trejybės cerkvė.
+
+=== Trijų Kryžių paminklas ===
+[[Vaizdas:Vilnius, Trys Kryžiai.jpg|thumb|Trijų Kryžių paminklas]]
+{{main|Trijų Kryžių paminklas}}
+
+Paminklas (trys balti gelžbetoniniai kryžiai) [[Kalnų parkas|Kalnų parke]], ant Plikojo kalno ([[architektas]] [[Antanas Vivulskis]]). Priklauso [[Vilniaus pilių kultūrinis rezervatas|Vilniaus pilių rezervatui]].
+
+=== Televizijos bokštas ===
+{{main|Vilniaus televizijos bokštas}}
+
+Aukščiausias (326,4 m) Lietuvos statinys. Yra [[Karoliniškės|Karoliniškėse]], prie [[Neris|Neries]] šlaito. 165 m aukštyje įrengta kavinė „Paukščių takas“.
+
+=== Rasų kapinės ===
+{{main|Rasų kapinės}}
+
+Įkurtos 1796 m., vienos seniausių ir svarbiausių šalies kapinių. Čia palaidoti [[Jonas Basanavičius]], [[Mikalojus Konstantinas Čiurlionis]], [[Vincas Mykolaitis-Putinas]], [[Mykolas Romeris]], [[Balys Sruoga]] ir kiti.
+
+=== Europos aikštė ===
+[[Vaizdas:Europos aikste by Augustas Didzgalvis.jpg|miniatiūra]]
+{{main|Europos aikštė}}
+
+Dešiniajame [[Neris|Neries]] krante, [[Konstitucijos prospektas|Konstitucijos prospekte]], įsikūrusi [[Europos aikštė]] yra vienas didžiausių verslo traukos centrų Vilniuje ir Lietuvoje. Čia įsikūręs 2004 m. atidarytas [[Europos bokštas]] – aukščiausias pastatas [[Baltijos šalys]]e, [[Vilniaus miesto savivaldybė]]s, [[Vilniaus verslo uostas|Vilniaus verslo uosto]] pastatai.
+
+=== Pamėnkalnis ===
+{{main|Pamėnkalnis}}
+
+Pamėnkalnis yra Vilniaus centre (jo viršūnėje gerai matomi stovi Profsąjungų rūmai, o giliau – [[Vilniaus miesto santuokų rūmai|Santuokų rūmai]]) tarp Pamėnkalnio, V. Kudirkos, K. Kalinausko ir Tauro gatvių.
+
+Dažnai dar vadinamas Tauro kalnu arba Taurakalniu. Nors legenda pastarąjį pavadinimą sieja su ant jo baubusiu, neva, didžiuliu [[Tauras|tauru]], Lietuvos girių karaliumi (tuo pakeliant kalno rangą pagal svarbumą į „karališką“ lygį), tikra šio žodžio kilmė yra nuo dignitoriaus Juozapo Boufalo, kuriam priklausė kalno žemė ar tik jos dalis. Tad vietos gyventojai kalną pradėjo vadinti savininko vardu – ''Góra Bouffałowa''. Dar vienas šio kalno pavadinimas, anot archeologo Vykinto Vaitkevičiaus, yra Velniakalnis.
+
+== Švietimo ir ugdymo įstaigos ==
+: ''Visų Vilniaus mokyklų kategorija – [[:Kategorija:Vilniaus mokyklos|Vilniaus mokyklos]].''
+
+=== Universitetai ===
+[[Vaizdas:Vilnius University campus by Augustas Didzgalvis.jpg|miniatiūra|[[VU]] kiemelių ansamblis]]
+*[[Vilniaus universitetas]]<ref>https://www.turizmas.lt/lankytinos-vietos/Vilniaus-universitetas/13554</ref>
+* [[Lietuvos muzikos ir teatro akademija]]
+* [[Vilniaus dailės akademija]]
+* [[Vilniaus Gedimino technikos universitetas]]
+* [[Vilniaus kolegija]]
+* [[Mykolo Romerio universitetas]]
+
+=== Nevalstybinės aukštosios mokyklos: ===
+* [[ISM Vadybos ir ekonomikos universitetas]]
+* [[Europos Humanitarinis Universitetas]]
+* [[Vilniaus Šv. Juozapo kunigų seminarija]]
+* [[Vilniaus universiteto Tarptautinio verslo mokykla]]
+* [[Kazimiero Simonavičiaus universitetas]]
+
+Kitos aukštosios mokyklos:
+* [[Balstogės universiteto Vilniaus Ekonomikos-informatikos fakultetas]]
+
+=== Bendrojo lavinimo mokyklos ===
+* [[Vilniaus Juozo Tallat-Kelpšos konservatorija|Juozo Tallat-Kelpšos konservatorija]]
+* [[Nacionalinė Mikalojaus Konstantino Čiurlionio menų mokykla]]
+* [[Vilniaus licėjus]]
+* 2 jaunimo mokyklos
+* 18 gimnazijų
+* 62 vidurinės mokyklos
+* 32 pagrindinės mokyklos
+* 21 pradinė mokykla
+* 14 mokyklų-darželių
+
+=== Profesinio mokymo įstaigos ===
+* [[Slaugos darbuotojų tobulinimosi ir specializacijos centras]]
+* [[Ugniagesių gelbėtojų mokykla]]
+* [[Vilniaus Jeruzalės darbo rinkos mokymo centras]]
+* [[Vilniaus statybininkų rengimo centras]]
+* [[Vilniaus Žirmūnų darbo rinkos mokymo centras]]
+* [[Vilniaus automechanikos ir verslo mokykla]]
+* [[Vilniaus geležinkelio transporto ir verslo paslaugų mokykla]]
+* [[Vilniaus komunalinių paslaugų mokykla]]
+* [[Vilniaus paslaugų verslo darbuotojų profesinio rengimo centras]]
+* [[Vilniaus technologijų ir verslo profesinio mokymo centras]]
+* [[Vilniaus technologijų mokymo ir reabilitacijos centras]]
+* [[Vilniaus turizmo ir prekybos verslo mokykla]]
+* [[Valstybės sienos apsaugos tarnybos prie Lietuvos Respublikos vidaus reikalų ministerijos Pasieniečių mokykla|Pasieniečių mokykla]] ([[Medininkai|Medininkuose]])
+* [[Vilniaus technologijų, verslo ir žemės ūkio mokykla]] ([[Baltoji Vokė (Vilnius)|Baltojoje Vokėje]])
+* [[Mokykla „Art of Beauty“]]
+* [[Kompiuterinių programų mokymo centras]]
+* [[Respublikinis energetikų mokymo centras]]
+
+=== Bibliotekos ===
+* [[Nacionalinė Martyno Mažvydo biblioteka]]
+* [[Vilniaus apskrities Adomo Mickevičiaus viešoji biblioteka]]
+* [[Vilniaus miesto savivaldybės centrinė biblioteka]]
+* [[Vilniaus universiteto biblioteka]]
+
+== Kultūra ==
+=== Senamiestis ===
+{{main|Vilniaus senamiestis}}
+
+1994 m. į [[UNESCO]] [[Pasaulio paveldo sąrašas|Pasaulio paveldo sąrašą]] įtrauktas [[urbanistikos paminklas]]. Kartais vadinamas didžiausiu Europos senamiesčiu. Įšlikę autentiškų XIV–XIX a. pastatų. Miestas yra vienas iš [[Europos plytų gotikos kelias|Europos plytų gotikos kelio]] stočių.
+
+=== Religija ===
+Yra 23 [[Vienuolynas|vienuolynai]] (daugiausiai Lietuvoje).
+
+==== Katalikai ====
+[[Vaizdas:St. Anne's Church Exterior 1, Vilnius, Lithuania - Diliff.jpg|thumb|[[Vilniaus Šv. Onos bažnyčia|Šv. Onos bažnyčia]]]]
+
+Yra ~40 įvairių stilių [[Katalikai|katalikų]] bažnyčių (daugiau apie jas žr. [[:Kategorija:Vilniaus bažnyčios|čia]], koplyčias – [[:Kategorija:Vilniaus koplyčios|čia]]):
+* [[Vilniaus Dievo Apvaizdos, Švč. Jėzaus Širdies parapijos bažnyčia|Dievo Apvaizdos, Švč. Jėzaus Širdies parapijos bažnyčia]];
+* [[Vilniaus Visų Šventųjų bažnyčia|Visų Šventųjų bažnyčia]];
+* [[Vilniaus Šv. apaštalų Pilypo ir Jokūbo bažnyčia|Šv. apaštalų Pilypo ir Jokūbo bažnyčia]];
+* [[Vilniaus Šv. Teresės bažnyčia|Šv. Teresės bažnyčia]];
+* [[Vilniaus Šv. arkangelo Rapolo bažnyčia|Šv. arkangelo Rapolo bažnyčia]];
+* [[Vilniaus Šventosios Dvasios bažnyčia|Šventosios Dvasios bažnyčia]]
+* [[Vilniaus Šv. apaštalų Petro ir Povilo bažnyčia|Šv. apaštalų Petro ir Povilo bažnyčia]];
+* [[Vilniaus Šv. Mikalojaus bažnyčia|Šv. Mikalojaus bažnyčia]]
+* [[Vilniaus Švč. Mergelės Marijos Nekaltojo Prasidėjimo bažnyčia|Švč. Mergelės Marijos Nekaltojo Prasidėjimo bažnyčia]];
+* [[Vilniaus Šv. Onos bažnyčia|Šv. Onos bažnyčia]]
+* [[Vilniaus Šv. Jono Krikštytojo ir Šv. Jono apaštalo ir evangelisto bažnyčia|Šv. Jono Krikštytojo ir Šv. Jono apaštalo ir evangelisto bažnyčia]];
+* [[Vilniaus Šv. Stanislovo ir Šv. Vladislovo arkikatedra bazilika|Vilniaus arkikatedra bazilika]]
+* [[Vilniaus Aušros Vartų Švč. Mergelės Marijos, Gailestingumo Motinos, koplyčia|Aušros Vartų Švč. Mergelės Marijos, Gailestingumo Motinos, koplyčia]].
+
+==== Sentikiai ====
+1825~1830 m. įsikūrė [[sentikiai]]. Viena didžiausių sentikių bendruomenių [[Baltijos šalys|Baltijos šalyse]]. Jiems priklauso 1904–1905 m. pastatyta [[Vilniaus Švč. Dievo Motinos Užtarėjos sentikių cerkvė]], nuo XIX a. pradžios veikiančios kapinės.
+
+==== Kitos religijos ====
+Yra [[Vilniaus Dievo Motinos Ėmimo į Dangų katedra]], [[Vilniaus Šv. Dvasios vienuolyno katedra]] su vienuolynu ir kitos stačiatikių cerkvės (daugiau jas žr. [[:Kategorija:Vilniaus cerkvės|čia]]), [[Vilniaus evangelikų liuteronų bažnyčia]], [[Vilniaus evangelikų reformatų bažnyčia]], dvi žydų religinės bendruomenės, ''morse'' stiliumi statyta žydų [[Vilniaus sinagoga|sinagoga]], musulmonų sunitų bendruomenė ir kt.
+<gallery>
+Vaizdas:Vilnius HMG Orthodox church.jpg|[[Vilniaus Dievo Motinos Ėmimo į Dangų katedra]]
+Vaizdas:Vilniaus sinagoga.jpg|[[Vilniaus sinagoga]]
+</gallery>
+
+== Sportas ==
+Yra [[Žalgirio stadionas]], [[LFF stadionas]], [[Vingio parko stadionas]], [[Kalnų parko stadionas]], [[Avia Solutions Group arena|„Avia Solutions Group“ arena]] (iki 2020 m. lapkričio „Siemens“ arena), [[Vilniaus pramogų arena|Pramogų arena]], „[[Sportima arena]]“. Didžiausias plaukimo [[baseinas]] – sportinis, 50 metrų [[Lazdynų baseinas]].
+
+2011 m. rugsėjo 7–12 d. [[Avia Solutions Group arena|„Siemens“ arenoje]] vyko [[2011 m. Europos krepšinio čempionatas|XXXVII Europos vyrų krepšinio čempionato]] antrojo etapo varžybos.
+
+Miestui atstovauja [[Vilniaus Rytas|„Ryto“]], [[Vilniaus Sakalai|„Sakalų“]] ir [[Vilniaus Perlas|„Perlo“]] krepšinio klubai, taip pat „[[FK Žalgiris|Žalgirio]]“ futbolo klubas.
+
+== Literatūra ==
+* {{ML|1|79|Vilnius}}
+* {{ESBE|1(p)|021/21159|Вильна|422}}
+* {{EB11|28|Vilna or Wilno|88}}
+* {{CE11|Vilna, Russia (Capital)}}
+* {{OE11|VAN_VIR/VILNA_or_WILNO|Vilna, or Wilno}}
+
+== Šaltiniai ==
+{{Išnašos|2}}
+
+== Nuorodos ==
+=== Apie Vilnių ===
+* vilnius.lt / [http://www.vilnius.lt Oficiali miesto svetainė]
+* vilnius-airport.lt / [https://www.vilnius-airport.lt/lt/ Vilniaus oro uostas]
+* skyscraperpage.com / [http://skyscraperpage.com/diagrams/?cityID=985 Vilniaus aukščiausių pastatų diagrama]
+* vilniauszinia.lt / [http://vilniauszinia.lt/ Vilniaus renginiai, parodos, pramogos]
+
+=== Žemėlapiai ===
+* google.com / [https://www.google.com/maps/place/Vilnius,+Lithuania/@54.7003614,24.972858,10z/data=!3m1!4b1!4m5!3m4!1s0x46dd93fb5c6408f5:0x400d18c70e9dc40!8m2!3d54.6871555!4d25.2796514 Vilniaus miesto ribos]
+* archive.org / panoramas.lt / [http://www.panoramas.lt/index.php?lg=2&page_id=19 Vilniaus žemėlapis su panoramomis] {{Webarchive|url=https://web.archive.org/web/20110720133642/http://www.panoramas.lt/index.php?lg=2&page_id=19 |date=2011-07-20 }}
+* zemelapis.info / [http://zemelapis.info/atlasas/vilniaus/5 Vilniaus miesto žemėlapis]
+* balticmaps.eu / [http://www.balticmaps.eu/?lang=en&draw_hash=izieyy&centerx=582677&centery=6060490&zoom=3&layer=map Vilniaus centro ir senamiesčio žemėlapis]
+* maps.lt / [http://www.maps.lt/map/?lang=lt#obj=582952;6061343;Pa%C5%BEym%C4%97tas%20ta%C5%A1kas;&xy=582962,6061351&z=10000&lrs=orthophoto,stops Vilniaus senamiesčio palydovinė nuotrauka]
+* google.co.uk / [https://www.google.co.uk/maps/@54.689511,25.294991,12z Vilniaus žemėlapis su nuotraukomis]
+* archive.org / vilniauszemelapis.lt / [http://www.vilniauszemelapis.lt Vilniaus žemėlapis] {{Webarchive|url=https://web.archive.org/web/20180507043839/http://www.vilniauszemelapis.lt/ |date=2018-05-07 }}
+
+=== Nuotraukos ===
+* gigapan.org / [http://www.gigapan.org/gigapans/fullscreen/53111/ Vilniaus panorama]
+* plakatai.my1.ru / [http://plakatai.my1.ru/photo/7-1 Senojo Vilniaus vaizdai]
+* archive.org / freewebs.com / [http://www.freewebs.com/vilnius_80/ Vilnius 1980 m. (nuotraukų albumas)] {{Webarchive|url=https://web.archive.org/web/20060116042032/http://www.freewebs.com/vilnius_80/ |date=2006-01-16 }}
+
+{{Europos šalių sostinės}}
+{{Lietuvos sostinės}}
+{{VLNMgyv}}
+{{SavStr}}
+
+[[Kategorija:Vilnius| ]]
