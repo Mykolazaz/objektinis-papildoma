@@ -14,6 +14,36 @@ private:
     std::set<std::string> uniqueUrls; // Store unique URLs
     std::set<std::string> validTlds; // Store unique valid TLDs
 
+    std::string cleanWord(const std::string& word) {
+        std::string cleaned;
+        for (char c : word) {
+            if (std::isalpha(c)) {
+                cleaned += std::tolower(c);
+            }
+        }
+        return cleaned;
+    }
+
+    std::vector<std::string> splitIntoWords(const std::string& line) {
+        std::vector<std::string> words;
+        std::string currentWord;
+        
+        for (char c : line) {
+            if (std::isalpha(c)) {
+                currentWord += c;
+            } else if (!currentWord.empty()) {
+                words.push_back(currentWord);
+                currentWord.clear();
+            }
+        }
+        
+        if (!currentWord.empty()) {
+            words.push_back(currentWord);
+        }
+        
+        return words;
+    }
+
     void loadValidTlds(const std::string& tldFilename) {
         std::ifstream file(tldFilename);
         if (!file.is_open()) {
