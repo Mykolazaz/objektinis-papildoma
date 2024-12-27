@@ -149,6 +149,65 @@ public:
         file.close();
     }
 
+    void outputRepeatedWords(const std::string& outputFilename) {
+        std::ofstream outFile(outputFilename);
+        if (!outFile.is_open()) {
+            std::cerr << "Error creating output file: " << outputFilename << std::endl;
+            return;
+        }
+
+        std::vector<std::pair<std::string, int>> sortedWords;
+        for (const auto& entry : wordFrequency) {
+            if (entry.second > 1) {
+                sortedWords.push_back(entry);
+            }
+        }
+
+        std::sort(sortedWords.begin(), sortedWords.end(),
+            [](const auto& a, const auto& b) {
+                return a.second > b.second || 
+                       (a.second == b.second && a.first < b.first);
+            });
+
+        for (const auto& entry : sortedWords) {
+            outFile << entry.first << ": " << entry.second << std::endl;
+        }
+        
+        outFile.close();
+    }
+
+    void outputWordLocations(const std::string& outputFilename) {
+        std::ofstream outFile(outputFilename);
+        if (!outFile.is_open()) {
+            std::cerr << "Error creating output file: " << outputFilename << std::endl;
+            return;
+        }
+
+        std::vector<std::pair<std::string, std::vector<int>>> sortedLocations;
+        for (const auto& entry : wordLocations) {
+            if (wordFrequency[entry.first] > 1) {
+                sortedLocations.push_back(entry);
+            }
+        }
+
+        std::sort(sortedLocations.begin(), sortedLocations.end(),
+            [](const auto& a, const auto& b) {
+                return a.first < b.first;
+            });
+
+        for (const auto& entry : sortedLocations) {
+            outFile << entry.first << " appears on lines: ";
+            std::vector<int> lines = entry.second;
+            std::sort(lines.begin(), lines.end());
+            for (int line : lines) {
+                outFile << line << " ";
+            }
+            outFile << std::endl;
+        }
+        
+        outFile.close();
+    }
+
     void extractUrls(const std::string& filename) {
         std::ifstream file(filename);
         if (!file.is_open()) {
@@ -195,10 +254,13 @@ public:
     }
 };
 
-int main(){
+int main() {
     FileAnalyzer analyzer("tlds-alpha-by-domain.txt");
 
     try {
+        analyzer.analyzeFile("vilnius-wiki.txt");
+        analyzer.outputRepeatedWords("repeated_words.txt");
+        analyzer.outputWordLocations("word_locations.txt");
         analyzer.extractUrls("vilnius-wiki.txt");
         analyzer.printUniqueUrls();
     }
