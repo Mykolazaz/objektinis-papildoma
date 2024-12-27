@@ -2,7 +2,9 @@
 #include <fstream>
 #include <sstream>
 #include <unordered_map>
+#include <vector>
 #include <regex>
+#include <algorithm>
 #include <set>
 
 class FileAnalyzer {
@@ -93,7 +95,7 @@ public:
             return;
         }
 
-        std::regex url_pattern(
+        std::regex url_pattern( // Regex of URL patterns
             R"((https?:\/\/)?([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(/[^\s]*)?)",
             std::regex::icase
         );
@@ -103,6 +105,7 @@ public:
             auto words_begin = std::sregex_iterator(line.begin(), line.end(), url_pattern);
             auto words_end = std::sregex_iterator();
 
+            // Iterate over all regex matches in the same line
             for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
                 std::smatch match = *i;
                 std::string potentialUrl = match.str();
@@ -116,8 +119,32 @@ public:
         
         file.close();
     }
+
+    void printUniqueUrls() {
+        if (uniqueUrls.empty()) {
+            std::cout << "No valid URLs found in the file." << std::endl;
+            return;
+        }
+
+        std::cout << "Unique base domains found:" << std::endl;
+        for (const auto& url : uniqueUrls) {
+            std::cout << url << std::endl;
+        }
+        std::cout << "Total valid unique domains found: " << uniqueUrls.size() << std::endl;
+    }
 };
 
 int main(){
+    FileAnalyzer analyzer("tlds-alpha-by-domain.txt");
+
+    try {
+        analyzer.extractUrls("vilnius-wiki.txt");
+        analyzer.printUniqueUrls();
+    }
+    catch (const std::exception& e) {
+        std::cerr << "An error occurred: " << e.what() << std::endl;
+        return 1;
+    }
+
     return 0;
 }
