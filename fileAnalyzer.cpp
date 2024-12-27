@@ -48,12 +48,16 @@ private:
     }
 
     bool isValidDomain(const std::string& domain) {
-        if (domain.empty() || domain[0] == '.' || domain[0] == '-' ||
-            domain.back() == '.' || domain.back() == '-') {
+        if (domain.empty() || // Empty domain
+            domain[0] == '.' || // Starts with a dot
+            domain[0] == '-' || // Starts with a hyphen
+            domain.back() == '.' || // Ends with a dot
+            domain.back() == '-' // Ends with a hyphen
+            ) {
             return false;
         }
 
-        // Split domain into parts
+        // Split domain into parts: www.example.com -> [www, example, com]
         std::vector<std::string> parts;
         std::string part;
         std::istringstream domainStream(domain);
@@ -71,6 +75,14 @@ private:
 
         // Check if TLD exists in valid TLDs set
         return validTlds.find(tld) != validTlds.end();
+    }
+
+public:
+    FileAnalyzer(const std::string& tldFilename) {
+        loadValidTlds(tldFilename);
+        if (validTlds.empty()) {
+            std::cerr << "Warning: No valid TLDs loaded. URL validation will fail." << std::endl;
+        }
     }
 };
 
