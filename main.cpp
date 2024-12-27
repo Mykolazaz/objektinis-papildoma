@@ -2,6 +2,14 @@
 #include "fileAnalyzer.h"
 
 int main() {
+    std::string fileName;
+
+    std::cout << "Here are all avaible files:" << std::endl;
+    system("ls *.txt");
+    std::cout << "\nChoose a file to analyze: " << std::endl;
+    std::cin >> fileName;
+    
+
     FileAnalyzer analyzer("tlds-alpha-by-domain.txt");
 
     try {
