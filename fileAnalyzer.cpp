@@ -118,6 +118,37 @@ public:
         }
     }
 
+    void analyzeFile(const std::string& filename) {
+        std::ifstream file(filename);
+        if (!file.is_open()) {
+            std::cerr << "Error opening file: " << filename << std::endl;
+            return;
+        }
+
+        std::string line;
+        int lineNumber = 0;
+
+        while (std::getline(file, line)) {
+            lineNumber++;
+            std::vector<std::string> words = splitIntoWords(line);
+            for (const std::string& word : words) {
+                std::string cleanedWord = cleanWord(word);
+                
+                if (!cleanedWord.empty() && cleanedWord.length() >= 1) {
+                    wordFrequency[cleanedWord]++;
+                    
+                    if (std::find(wordLocations[cleanedWord].begin(), 
+                                wordLocations[cleanedWord].end(), 
+                                lineNumber) == wordLocations[cleanedWord].end()) {
+                        wordLocations[cleanedWord].push_back(lineNumber);
+                    }
+                }
+            }
+        }
+        
+        file.close();
+    }
+
     void extractUrls(const std::string& filename) {
         std::ifstream file(filename);
         if (!file.is_open()) {
