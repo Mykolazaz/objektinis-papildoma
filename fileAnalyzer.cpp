@@ -1,273 +1,242 @@
-#include <iostream>
-#include <fstream>
-#include <sstream>
-#include <unordered_map>
-#include <vector>
-#include <regex>
-#include <algorithm>
-#include <set>
+#include "lib.h"
+#include "fileAnalyzer.h"
 
-class FileAnalyzer {
-private:
-    std::unordered_map<std::string, int> wordFrequency;
-    std::unordered_map<std::string, std::vector<int>> wordLocations;
-    std::set<std::string> uniqueUrls; // Store unique URLs
-    std::set<std::string> validTlds; // Store unique valid TLDs
 
-    std::string cleanWord(const std::string& word) {
-        std::string cleaned;
-        for (char c : word) {
-            if (std::isalpha(c)) {
-                cleaned += std::tolower(c);
-            }
+std::string FileAnalyzer::cleanWord(const std::string& word) {
+    std::string cleaned;
+    for (char c : word) {
+        if (std::isalpha(c)) {
+            cleaned += std::tolower(c);
         }
-        return cleaned;
     }
+    return cleaned;
+}
 
-    std::vector<std::string> splitIntoWords(const std::string& line) {
-        std::vector<std::string> words;
-        std::string currentWord;
-        
-        for (char c : line) {
-            if (std::isalpha(c)) {
-                currentWord += c;
-            } else if (!currentWord.empty()) {
-                words.push_back(currentWord);
-                currentWord.clear();
-            }
-        }
-        
-        if (!currentWord.empty()) {
+std::vector<std::string> FileAnalyzer::splitIntoWords(const std::string& line) {
+    std::vector<std::string> words;
+    std::string currentWord;
+    
+    for (char c : line) {
+        if (std::isalpha(c)) {
+            currentWord += c;
+        } else if (!currentWord.empty()) {
             words.push_back(currentWord);
-        }
-        
-        return words;
-    }
-
-    void loadValidTlds(const std::string& tldFilename) {
-        std::ifstream file(tldFilename);
-        if (!file.is_open()) {
-            std::cerr << "Error opening TLD file: " << tldFilename << std::endl;
-            return; // File not found or cannot be opened
-        }
-
-        std::string tld;
-        while (std::getline(file, tld)) {
-            if (!tld.empty() && tld[0] != '#') { // Skip comments
-                // Convert all TLDs to lowercase for case-insensitive comparison
-                std::transform(tld.begin(), tld.end(), tld.begin(), ::tolower);
-                validTlds.insert(tld);
-            }
-        }
-        file.close();
-    }
-
-    std::string extractBaseDomain(const std::string& url) {
-        std::string baseDomain = url;
-        
-        // Remove http:// or https://
-        auto protocolPos = baseDomain.find("://");
-        if (protocolPos != std::string::npos) {
-            baseDomain = baseDomain.substr(protocolPos + 3);
-        }
-        
-        // Remove the part after the first slash or special characters
-        auto firstSlash = baseDomain.find_first_of("/?#");
-        if (firstSlash != std::string::npos) {
-            baseDomain = baseDomain.substr(0, firstSlash);
-        }
-        
-        return baseDomain;
-    }
-
-    bool isValidDomain(const std::string& domain) {
-        if (domain.empty() || // Empty domain
-            domain[0] == '.' || // Starts with a dot
-            domain[0] == '-' || // Starts with a hyphen
-            domain.back() == '.' || // Ends with a dot
-            domain.back() == '-' // Ends with a hyphen
-            ) {
-            return false;
-        }
-
-        // Split domain into parts: www.example.com -> [www, example, com]
-        std::vector<std::string> parts;
-        std::string part;
-        std::istringstream domainStream(domain);
-        
-        while (std::getline(domainStream, part, '.')) {
-            if (part.empty()) return false;
-            parts.push_back(part);
-        }
-
-        if (parts.size() < 2) return false;  // Need at least two parts
-
-        // Get the TLD (last part)
-        std::string tld = parts.back();
-        std::transform(tld.begin(), tld.end(), tld.begin(), ::tolower);
-
-        // Check if TLD exists in valid TLDs set
-        return validTlds.find(tld) != validTlds.end();
-    }
-
-public:
-    FileAnalyzer(const std::string& tldFilename) {
-        loadValidTlds(tldFilename);
-        if (validTlds.empty()) {
-            std::cerr << "Warning: No valid TLDs loaded." << std::endl;
+            currentWord.clear();
         }
     }
+    
+    if (!currentWord.empty()) {
+        words.push_back(currentWord);
+    }
+    
+    return words;
+}
 
-    void analyzeFile(const std::string& filename) {
-        std::ifstream file(filename);
-        if (!file.is_open()) {
-            std::cerr << "Error opening file: " << filename << std::endl;
-            return;
+void FileAnalyzer::loadValidTlds(const std::string& tldFilename) {
+    std::ifstream file(tldFilename);
+    if (!file.is_open()) {
+        std::cerr << "Error opening TLD file: " << tldFilename << std::endl;
+        return; // File not found or cannot be opened
+    }
+
+    std::string tld;
+    while (std::getline(file, tld)) {
+        if (!tld.empty() && tld[0] != '#') { // Skip comments
+            // Convert all TLDs to lowercase for case-insensitive comparison
+            std::transform(tld.begin(), tld.end(), tld.begin(), ::tolower);
+            validTlds.insert(tld);
         }
+    }
+    file.close();
+}
 
-        std::string line;
-        int lineNumber = 0;
+std::string FileAnalyzer::extractBaseDomain(const std::string& url) {
+    std::string baseDomain = url;
+    
+    // Remove http:// or https://
+    auto protocolPos = baseDomain.find("://");
+    if (protocolPos != std::string::npos) {
+        baseDomain = baseDomain.substr(protocolPos + 3);
+    }
+    
+    // Remove the part after the first slash or special characters
+    auto firstSlash = baseDomain.find_first_of("/?#");
+    if (firstSlash != std::string::npos) {
+        baseDomain = baseDomain.substr(0, firstSlash);
+    }
+    
+    return baseDomain;
+}
 
-        while (std::getline(file, line)) {
-            lineNumber++;
-            std::vector<std::string> words = splitIntoWords(line);
-            for (const std::string& word : words) {
-                std::string cleanedWord = cleanWord(word);
+bool FileAnalyzer::isValidDomain(const std::string& domain) {
+    if (domain.empty() || // Empty domain
+        domain[0] == '.' || // Starts with a dot
+        domain[0] == '-' || // Starts with a hyphen
+        domain.back() == '.' || // Ends with a dot
+        domain.back() == '-' // Ends with a hyphen
+        ) {
+        return false;
+    }
+
+    // Split domain into parts: www.example.com -> [www, example, com]
+    std::vector<std::string> parts;
+    std::string part;
+    std::istringstream domainStream(domain);
+    
+    while (std::getline(domainStream, part, '.')) {
+        if (part.empty()) return false;
+        parts.push_back(part);
+    }
+
+    if (parts.size() < 2) return false;  // Need at least two parts
+
+    // Get the TLD (last part)
+    std::string tld = parts.back();
+    std::transform(tld.begin(), tld.end(), tld.begin(), ::tolower);
+
+    // Check if TLD exists in valid TLDs set
+    return validTlds.find(tld) != validTlds.end();
+}
+
+
+FileAnalyzer::FileAnalyzer(const std::string& tldFilename) {
+    loadValidTlds(tldFilename);
+    if (validTlds.empty()) {
+        std::cerr << "Warning: No valid TLDs loaded." << std::endl;
+    }
+}
+
+void FileAnalyzer::analyzeFile(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error opening file: " << filename << std::endl;
+        return;
+    }
+
+    std::string line;
+    int lineNumber = 0;
+
+    while (std::getline(file, line)) {
+        lineNumber++;
+        std::vector<std::string> words = splitIntoWords(line);
+        for (const std::string& word : words) {
+            std::string cleanedWord = cleanWord(word);
+            
+            if (!cleanedWord.empty() && cleanedWord.length() >= 1) {
+                wordFrequency[cleanedWord]++;
                 
-                if (!cleanedWord.empty() && cleanedWord.length() >= 1) {
-                    wordFrequency[cleanedWord]++;
-                    
-                    if (std::find(wordLocations[cleanedWord].begin(), 
-                                wordLocations[cleanedWord].end(), 
-                                lineNumber) == wordLocations[cleanedWord].end()) {
-                        wordLocations[cleanedWord].push_back(lineNumber);
-                    }
+                if (std::find(wordLocations[cleanedWord].begin(), 
+                            wordLocations[cleanedWord].end(), 
+                            lineNumber) == wordLocations[cleanedWord].end()) {
+                    wordLocations[cleanedWord].push_back(lineNumber);
                 }
             }
         }
-        
-        file.close();
+    }
+    
+    file.close();
+}
+
+void FileAnalyzer::outputRepeatedWords(const std::string& outputFilename) {
+    std::ofstream outFile(outputFilename);
+    if (!outFile.is_open()) {
+        std::cerr << "Error creating output file: " << outputFilename << std::endl;
+        return;
     }
 
-    void outputRepeatedWords(const std::string& outputFilename) {
-        std::ofstream outFile(outputFilename);
-        if (!outFile.is_open()) {
-            std::cerr << "Error creating output file: " << outputFilename << std::endl;
-            return;
+    std::vector<std::pair<std::string, int>> sortedWords;
+    for (const auto& entry : wordFrequency) {
+        if (entry.second > 1) {
+            sortedWords.push_back(entry);
         }
+    }
 
-        std::vector<std::pair<std::string, int>> sortedWords;
-        for (const auto& entry : wordFrequency) {
-            if (entry.second > 1) {
-                sortedWords.push_back(entry);
+    std::sort(sortedWords.begin(), sortedWords.end(),
+        [](const auto& a, const auto& b) {
+            return a.second > b.second || 
+                    (a.second == b.second && a.first < b.first);
+        });
+
+    for (const auto& entry : sortedWords) {
+        outFile << entry.first << ": " << entry.second << std::endl;
+    }
+    
+    outFile.close();
+}
+
+void FileAnalyzer::outputWordLocations(const std::string& outputFilename) {
+    std::ofstream outFile(outputFilename);
+    if (!outFile.is_open()) {
+        std::cerr << "Error creating output file: " << outputFilename << std::endl;
+        return;
+    }
+
+    std::vector<std::pair<std::string, std::vector<int>>> sortedLocations;
+    for (const auto& entry : wordLocations) {
+        if (wordFrequency[entry.first] > 1) {
+            sortedLocations.push_back(entry);
+        }
+    }
+
+    std::sort(sortedLocations.begin(), sortedLocations.end(),
+        [](const auto& a, const auto& b) {
+            return a.first < b.first;
+        });
+
+    for (const auto& entry : sortedLocations) {
+        outFile << entry.first << " appears on lines: ";
+        std::vector<int> lines = entry.second;
+        std::sort(lines.begin(), lines.end());
+        for (int line : lines) {
+            outFile << line << " ";
+        }
+        outFile << std::endl;
+    }
+    
+    outFile.close();
+}
+
+void FileAnalyzer::extractUrls(const std::string& filename) {
+    std::ifstream file(filename);
+    if (!file.is_open()) {
+        std::cerr << "Error opening file: " << filename << std::endl;
+        return;
+    }
+
+    std::regex url_pattern( // Regex of URL patterns
+        R"((https?:\/\/)?([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(/[^\s]*)?)",
+        std::regex::icase
+    );
+
+    std::string line;
+    while (std::getline(file, line)) {
+        auto words_begin = std::sregex_iterator(line.begin(), line.end(), url_pattern);
+        auto words_end = std::sregex_iterator();
+
+        // Iterate over all regex matches in the same line
+        for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
+            std::smatch match = *i;
+            std::string potentialUrl = match.str();
+            std::string baseDomain = extractBaseDomain(potentialUrl);
+            
+            if (isValidDomain(baseDomain)) {
+                uniqueUrls.insert(baseDomain);
             }
         }
+    }
+    
+    file.close();
+}
 
-        std::sort(sortedWords.begin(), sortedWords.end(),
-            [](const auto& a, const auto& b) {
-                return a.second > b.second || 
-                       (a.second == b.second && a.first < b.first);
-            });
-
-        for (const auto& entry : sortedWords) {
-            outFile << entry.first << ": " << entry.second << std::endl;
-        }
-        
-        outFile.close();
+void FileAnalyzer::printUniqueUrls() {
+    if (uniqueUrls.empty()) {
+        std::cout << "No valid URLs found in the file." << std::endl;
+        return;
     }
 
-    void outputWordLocations(const std::string& outputFilename) {
-        std::ofstream outFile(outputFilename);
-        if (!outFile.is_open()) {
-            std::cerr << "Error creating output file: " << outputFilename << std::endl;
-            return;
-        }
-
-        std::vector<std::pair<std::string, std::vector<int>>> sortedLocations;
-        for (const auto& entry : wordLocations) {
-            if (wordFrequency[entry.first] > 1) {
-                sortedLocations.push_back(entry);
-            }
-        }
-
-        std::sort(sortedLocations.begin(), sortedLocations.end(),
-            [](const auto& a, const auto& b) {
-                return a.first < b.first;
-            });
-
-        for (const auto& entry : sortedLocations) {
-            outFile << entry.first << " appears on lines: ";
-            std::vector<int> lines = entry.second;
-            std::sort(lines.begin(), lines.end());
-            for (int line : lines) {
-                outFile << line << " ";
-            }
-            outFile << std::endl;
-        }
-        
-        outFile.close();
+    std::cout << "Unique base domains found:" << std::endl;
+    for (const auto& url : uniqueUrls) {
+        std::cout << url << std::endl;
     }
-
-    void extractUrls(const std::string& filename) {
-        std::ifstream file(filename);
-        if (!file.is_open()) {
-            std::cerr << "Error opening file: " << filename << std::endl;
-            return;
-        }
-
-        std::regex url_pattern( // Regex of URL patterns
-            R"((https?:\/\/)?([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(/[^\s]*)?)",
-            std::regex::icase
-        );
-
-        std::string line;
-        while (std::getline(file, line)) {
-            auto words_begin = std::sregex_iterator(line.begin(), line.end(), url_pattern);
-            auto words_end = std::sregex_iterator();
-
-            // Iterate over all regex matches in the same line
-            for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
-                std::smatch match = *i;
-                std::string potentialUrl = match.str();
-                std::string baseDomain = extractBaseDomain(potentialUrl);
-                
-                if (isValidDomain(baseDomain)) {
-                    uniqueUrls.insert(baseDomain);
-                }
-            }
-        }
-        
-        file.close();
-    }
-
-    void printUniqueUrls() {
-        if (uniqueUrls.empty()) {
-            std::cout << "No valid URLs found in the file." << std::endl;
-            return;
-        }
-
-        std::cout << "Unique base domains found:" << std::endl;
-        for (const auto& url : uniqueUrls) {
-            std::cout << url << std::endl;
-        }
-        std::cout << "Total valid unique domains found: " << uniqueUrls.size() << std::endl;
-    }
-};
-
-int main() {
-    FileAnalyzer analyzer("tlds-alpha-by-domain.txt");
-
-    try {
-        analyzer.analyzeFile("vilnius-wiki.txt");
-        analyzer.outputRepeatedWords("repeated_words.txt");
-        analyzer.outputWordLocations("word_locations.txt");
-        analyzer.extractUrls("vilnius-wiki.txt");
-        analyzer.printUniqueUrls();
-    }
-    catch (const std::exception& e) {
-        std::cerr << "An error occurred: " << e.what() << std::endl;
-        return 1;
-    }
-
-    return 0;
+    std::cout << "Total valid unique domains found: " << uniqueUrls.size() << std::endl;
 }
