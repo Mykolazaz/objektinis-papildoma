@@ -27,6 +27,24 @@ private:
         }
         file.close();
     }
+
+    std::string extractBaseDomain(const std::string& url) {
+        std::string baseDomain = url;
+        
+        // Remove http:// or https://
+        size_t protocolPos = baseDomain.find("://");
+        if (protocolPos != std::string::npos) {
+            baseDomain = baseDomain.substr(protocolPos + 3);
+        }
+        
+        // Remove the part after the first slash or special characters
+        size_t firstSlash = baseDomain.find_first_of("/?#");
+        if (firstSlash != std::string::npos) {
+            baseDomain = baseDomain.substr(0, firstSlash);
+        }
+        
+        return baseDomain;
+    }
 };
 
 int main(){
