@@ -2,6 +2,7 @@
 #include <fstream>
 #include <sstream>
 #include <unordered_map>
+#include <regex>
 #include <set>
 
 class FileAnalyzer {
@@ -81,8 +82,39 @@ public:
     FileAnalyzer(const std::string& tldFilename) {
         loadValidTlds(tldFilename);
         if (validTlds.empty()) {
-            std::cerr << "Warning: No valid TLDs loaded. URL validation will fail." << std::endl;
+            std::cerr << "Warning: No valid TLDs loaded." << std::endl;
         }
+    }
+
+    void extractUrls(const std::string& filename) {
+        std::ifstream file(filename);
+        if (!file.is_open()) {
+            std::cerr << "Error opening file: " << filename << std::endl;
+            return;
+        }
+
+        std::regex url_pattern(
+            R"((https?:\/\/)?([a-zA-Z0-9]([a-zA-Z0-9-]*[a-zA-Z0-9])?\.)+[a-zA-Z]{2,}(/[^\s]*)?)",
+            std::regex::icase
+        );
+
+        std::string line;
+        while (std::getline(file, line)) {
+            auto words_begin = std::sregex_iterator(line.begin(), line.end(), url_pattern);
+            auto words_end = std::sregex_iterator();
+
+            for (std::sregex_iterator i = words_begin; i != words_end; ++i) {
+                std::smatch match = *i;
+                std::string potentialUrl = match.str();
+                std::string baseDomain = extractBaseDomain(potentialUrl);
+                
+                if (isValidDomain(baseDomain)) {
+                    uniqueUrls.insert(baseDomain);
+                }
+            }
+        }
+        
+        file.close();
     }
 };
 
