@@ -121,7 +121,7 @@ void FileAnalyzer::analyzeFile(const std::string& filename) {
         for (const std::string& word : words) {
             std::string cleanedWord = cleanWord(word);
             
-            if (!cleanedWord.empty() && cleanedWord.length() >= 1) {
+            if (!cleanedWord.empty() && cleanedWord.length() > 1) {
                 wordFrequency[cleanedWord]++;
                 
                 if (std::find(wordLocations[cleanedWord].begin(), 
