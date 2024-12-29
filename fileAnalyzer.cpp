@@ -1,7 +1,6 @@
 #include "lib.h"
 #include "fileAnalyzer.h"
 
-
 std::string FileAnalyzer::cleanWord(const std::string& word) {
     std::string cleaned;
     for (char c : word) {
@@ -35,7 +34,7 @@ std::vector<std::string> FileAnalyzer::splitIntoWords(const std::string& line) {
 void FileAnalyzer::loadValidTlds(const std::string& tldFilename) {
     std::ifstream file(tldFilename);
     if (!file.is_open()) {
-        std::cerr << "Error opening TLD file: " << tldFilename << std::endl;
+        std::cerr << "Error opening TLD file: " << tldFilename << "\n";
         return; // File not found or cannot be opened
     }
 
@@ -102,14 +101,14 @@ bool FileAnalyzer::isValidDomain(const std::string& domain) {
 FileAnalyzer::FileAnalyzer(const std::string& tldFilename) {
     loadValidTlds(tldFilename);
     if (validTlds.empty()) {
-        std::cerr << "Warning: No valid TLDs loaded." << std::endl;
+        std::cerr << "Warning: No valid TLDs loaded." << "\n";
     }
 }
 
 void FileAnalyzer::analyzeFile(const std::string& filename) {
     std::ifstream file(filename);
     if (!file.is_open()) {
-        std::cerr << "Error opening file: " << filename << std::endl;
+        std::cerr << "Error opening file: " << filename << "\n";
         return;
     }
 
@@ -140,7 +139,7 @@ void FileAnalyzer::analyzeFile(const std::string& filename) {
 void FileAnalyzer::outputRepeatedWords(const std::string& outputFilename) {
     std::ofstream outFile(outputFilename);
     if (!outFile.is_open()) {
-        std::cerr << "Error creating output file: " << outputFilename << std::endl;
+        std::cerr << "Error creating output file: " << outputFilename << "\n";
         return;
     }
 
@@ -158,7 +157,7 @@ void FileAnalyzer::outputRepeatedWords(const std::string& outputFilename) {
         });
 
     for (const auto& entry : sortedWords) {
-        outFile << entry.first << ": " << entry.second << std::endl;
+        outFile << entry.first << ": " << entry.second << "\n";
     }
     
     outFile.close();
@@ -167,7 +166,7 @@ void FileAnalyzer::outputRepeatedWords(const std::string& outputFilename) {
 void FileAnalyzer::outputWordLocations(const std::string& outputFilename) {
     std::ofstream outFile(outputFilename);
     if (!outFile.is_open()) {
-        std::cerr << "Error creating output file: " << outputFilename << std::endl;
+        std::cerr << "Error creating output file: " << outputFilename << "\n";
         return;
     }
 
@@ -190,7 +189,7 @@ void FileAnalyzer::outputWordLocations(const std::string& outputFilename) {
         for (int line : lines) {
             outFile << line << " ";
         }
-        outFile << std::endl;
+        outFile << "\n";
     }
     
     outFile.close();
@@ -199,7 +198,7 @@ void FileAnalyzer::outputWordLocations(const std::string& outputFilename) {
 void FileAnalyzer::extractUrls(const std::string& filename) {
     std::ifstream file(filename);
     if (!file.is_open()) {
-        std::cerr << "Error opening file: " << filename << std::endl;
+        std::cerr << "Error opening file: " << filename << "\n";
         return;
     }
 
@@ -230,13 +229,13 @@ void FileAnalyzer::extractUrls(const std::string& filename) {
 
 void FileAnalyzer::printUniqueUrls() {
     if (uniqueUrls.empty()) {
-        std::cout << "No valid URLs found in the file." << std::endl;
+        std::cout << "No valid URLs found in the file."  << "\n";
         return;
     }
 
-    std::cout << "Unique base domains found:" << std::endl;
+    std::cout << "Unique base domains found:"  << "\n";
     for (const auto& url : uniqueUrls) {
-        std::cout << url << std::endl;
+        std::cout << url  << "\n";
     }
-    std::cout << "Total valid unique domains found: " << uniqueUrls.size() << std::endl;
+    std::cout << "Total valid unique domains found: " << uniqueUrls.size()  << "\n";
 }
