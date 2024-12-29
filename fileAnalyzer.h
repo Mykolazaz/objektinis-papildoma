@@ -21,7 +21,7 @@ public:
     void extractUrls(const std::string& filename);
     void outputRepeatedWords(const std::string& outputFilename);
     void outputWordLocations(const std::string& outputFilename);
-    void printUniqueUrls();
+    void printUniqueUrls(const bool& toFile = false);
 };
 
 #endif

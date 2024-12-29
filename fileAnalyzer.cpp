@@ -227,15 +227,29 @@ void FileAnalyzer::extractUrls(const std::string& filename) {
     file.close();
 }
 
-void FileAnalyzer::printUniqueUrls() {
+void FileAnalyzer::printUniqueUrls(const bool& toFile) {
     if (uniqueUrls.empty()) {
         std::cout << "No valid URLs found in the file."  << "\n";
         return;
     }
 
-    std::cout << "Unique base domains found:"  << "\n";
-    for (const auto& url : uniqueUrls) {
-        std::cout << url  << "\n";
+    if (toFile) {
+        std::ofstream outFile("unique_urls.txt");
+        if (!outFile.is_open()) {
+            std::cerr << "Error creating output file: unique_urls.txt" << "\n";
+            return;
+        }
+
+        for (const auto& url : uniqueUrls) {
+            outFile << url << "\n";
+        }
+        outFile.close();
+
+        std::cout << "Results saved to unique_urls.txt"  << "\n";
+    } else {
+        std::cout << "Unique base domains found:"  << "\n";
+        for (const auto& url : uniqueUrls) {
+            std::cout << url  << "\n";
+        }
     }
-    std::cout << "Total valid unique domains found: " << uniqueUrls.size()  << "\n";
 }
