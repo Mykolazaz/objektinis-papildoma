@@ -7,7 +7,7 @@ int main() {
     std::cout << "Here are all avaible files:" << "\n";
     system("ls *.txt");
 
-    std::cout << "\nChoose a file to analyze: " << "\n";
+    std::cout << "\n" << "Choose a file to analyze: " << "\n";
     std::cin >> fileName;
     
     FileAnalyzer analyzer("tlds-alpha-by-domain.txt");
@@ -16,8 +16,6 @@ int main() {
         int choice1, choice2;
         std::cout << "Analyse words (0) or URLs (1)?"  << "\n";;
         std::cin >> choice1;
-
-        
 
         if (choice1 == 0) {
             analyzer.analyzeFile(fileName);
