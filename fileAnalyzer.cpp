@@ -123,6 +123,7 @@ void FileAnalyzer::analyzeFile(const std::string& filename) {
             
             if (!cleanedWord.empty() && cleanedWord.length() > 1) {
                 wordFrequency[cleanedWord]++;
+                allWords.push_back(cleanedWord);
                 
                 if (std::find(wordLocations[cleanedWord].begin(), 
                             wordLocations[cleanedWord].end(), 
@@ -134,6 +135,33 @@ void FileAnalyzer::analyzeFile(const std::string& filename) {
     }
     
     file.close();
+}
+
+void FileAnalyzer::findWordsContaining(const std::string& substring) {
+    std::string searchStr = cleanWord(substring);
+    if (searchStr.empty()) {
+        std::cout << "Search string is empty after cleaning." << std::endl;
+        return;
+    }
+
+    std::cout << "Words containing '" << searchStr << "':" << std::endl;
+    bool found = false;
+    
+    int matchCounter = 0;
+
+    for (const std::string& word : allWords) {
+        if (word.find(searchStr) != std::string::npos) {
+            matchCounter++;
+            std::cout << word << std::endl;
+            found = true;
+        }
+    }
+
+    std::cout << "Found number of matches: " << matchCounter << "\n";
+
+    if (!found) {
+        std::cout << "No words found containing '" << searchStr << "'" << std::endl;
+    }
 }
 
 void FileAnalyzer::outputRepeatedWords(const std::string& outputFilename) {
